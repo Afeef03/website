@@ -1,0 +1,38 @@
+.carousel-item img {
+  height: 80vh;
+}
+.carousel-caption {
+  height: 80vh;
+  display: flex;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-indicators [data-bs-target] {
+  background: #ffc451;
+  border-radius: 50%;
+  width: 22px;
+}
+.sucess{
+  background-color: transparent;
+  color: white;
+  border: 2px solid green;
+  padding: 10px 20px;
+  transition: 0.3s ease-in-out;
+}
+.sucess:hover{
+  background-color: green;
+  border: 2px solid green;
+}
+@media(max-width:700px){
+  .carousel-caption{
+    display: none!important;
+  }
+  .carousel-item img{
+    height: auto;
+  }
+  .navbar-toggler{
+    background-color: white;
+  }
+}

@@ -1,0 +1,44 @@
+.navbar-brand{
+    font-size: 30px;
+    margin-inline: 24px;
+    font-weight: 500;
+    color: white;
+}
+nav{
+    transition: 0.4s ease-in-out;
+}
+nav.scrolled{
+    background-color: white;
+}
+nav.scrolled .nav-link{
+    color: black;
+}
+nav.scrolled .navbar-brand{
+    color: black;
+}
+.navbar-brand span{
+    color: #df9505;
+}
+.nav-link{
+    margin-inline: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.nav-link:hover{
+    color: var(--primary);
+}
+.btn-nav{
+    background: transparent;
+    border: 2px solid var(--primary);
+    padding: 10px 20px;
+    margin-inline: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.btn-nav:hover{
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+}

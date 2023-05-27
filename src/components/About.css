@@ -1,0 +1,13 @@
+.bg-1{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+#text{
+    display: flex;
+    /* align-items: ; */
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+}

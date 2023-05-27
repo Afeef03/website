@@ -1,13 +1,43 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=League+Spartan&family=Lobster&family=Lobster+Two:wght@700&family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary: #ffc451;
+  --success:#198754;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+html,body{
+  overflow-x: hidden;
+}
+.mt-10{
+  margin-top: 80px;
+}
+.buttons {
+  display: flex;
+}
+i{
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+link:hover{
+  color: var(--primary);
+}
+.btn-custom {
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 10px 20px;
+  margin-inline: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
 }

@@ -1,0 +1,17 @@
+.card {
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-inline: 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.user-content p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.ratings i {
+  color: blue;
+}
+
